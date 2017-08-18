@@ -155,7 +155,7 @@ module.exports = GameServer;
 
 GameServer.prototype.start = function() {
 
-    this.config.serverPort = process.env.PORT;
+    this.config.serverPort = process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT;
 
     this.timerLoopBind = this.timerLoop.bind(this);
     this.mainLoopBind = this.mainLoop.bind(this);
