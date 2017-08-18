@@ -1,0 +1,72 @@
+=== Started 2017-05-19T19-17-52-054 ===
+[INFO ][19:17:52] 419 bad words loaded
+[WARN ][19:17:52] User account "Local Administrator" disabled
+[WARN ][19:17:52] User account "Local Moderator" disabled
+[WARN ][19:17:52] User account "Local User" disabled
+[INFO ][19:17:52] 0 user records loaded.
+[INFO ][19:17:52] 0 IP ban records loaded.
+[INFO ][19:17:52] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][19:17:52] WebSocket: ws
+[INFO ][19:17:52] Listening on port 3003
+[INFO ][19:17:52] Current game mode is Free For All
+[NONE ][19:17:52]   __  __       _ _   _  ___                        _____    _ _ _           _    _   __    _ 
+ |  \/  |_   _| | |_(_)/ _ \  __ _  __ _ _ __     | ____|__| (_) |_ ___  __| |  / | / /_  / |
+ | |\/| | | | | | __| | | | |/ _` |/ _` | '__|____|  _| / _` | | __/ _ \/ _` |  | || '_ \ | |
+ | |  | | |_| | | |_| | |_| | (_| | (_| | | |_____| |__| (_| | | ||  __/ (_| |  | || (_) || |
+ |_|  |_|\__,_|_|\__|_|\___/ \__, |\__,_|_|       |_____\__,_|_|\__\___|\__,_|  |_(_)___(_)_|
+                             |___/                                                           
+[NONE ][19:17:53] CONNECTED 127.0.0.1:22836, origin: "http://blobby.ga"
+[NONE ][19:17:56] DISCONNECTED 127.0.0.1:22836, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:17:56] CONNECTED 127.0.0.1:22848, origin: "http://blobby.ga"
+[NONE ][19:18:08] DISCONNECTED 127.0.0.1:22848, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:18:09] CONNECTED 127.0.0.1:23094, origin: "http://blobby.ga"
+[NONE ][19:20:40] DISCONNECTED 127.0.0.1:23094, code: 1001, reason: "", name: ""
+[NONE ][19:20:41] CONNECTED 127.0.0.1:24558, origin: "http://blobby.ga"
+[NONE ][19:20:51] DISCONNECTED 127.0.0.1:24558, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:20:51] CONNECTED 127.0.0.1:24664, origin: "http://blobby.ga"
+[NONE ][19:21:34] DISCONNECTED 127.0.0.1:24664, code: 1001, reason: "", name: ""
+[NONE ][19:21:35] CONNECTED 127.0.0.1:25234, origin: "http://blobby.ga"
+[NONE ][19:22:59] DISCONNECTED 127.0.0.1:25234, code: 1001, reason: "", name: ""
+[NONE ][19:23:00] CONNECTED 127.0.0.1:26116, origin: "http://blobby.ga"
+[NONE ][19:23:24] DISCONNECTED 127.0.0.1:26116, code: 1001, reason: "", name: ""
+[NONE ][19:23:25] CONNECTED 127.0.0.1:26592, origin: "http://blobby.ga"
+[NONE ][19:24:15] DISCONNECTED 127.0.0.1:26592, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:24:16] CONNECTED 127.0.0.1:27174, origin: "http://blobby.ga"
+[NONE ][19:24:34] DISCONNECTED 127.0.0.1:27174, code: 1001, reason: "", name: "doge"
+[NONE ][19:24:35] CONNECTED 127.0.0.1:27404, origin: "http://blobby.ga"
+[NONE ][19:24:39] DISCONNECTED 127.0.0.1:27404, code: 1001, reason: "", name: "pirate"
+[NONE ][19:24:40] CONNECTED 127.0.0.1:27434, origin: "http://blobby.ga"
+[NONE ][19:25:13] DISCONNECTED 127.0.0.1:27434, code: 1001, reason: "", name: ""
+[NONE ][19:25:14] CONNECTED 127.0.0.1:27988, origin: "http://blobby.ga"
+[NONE ][19:25:18] DISCONNECTED 127.0.0.1:27988, code: 1001, reason: "", name: "doge2"
+[NONE ][19:25:19] CONNECTED 127.0.0.1:28054, origin: "http://blobby.ga"
+[NONE ][19:26:23] DISCONNECTED 127.0.0.1:28054, code: 1001, reason: "", name: ""
+[NONE ][19:26:24] CONNECTED 127.0.0.1:28708, origin: "http://blobby.ga"
+[NONE ][19:26:33] DISCONNECTED 127.0.0.1:28708, code: 1001, reason: "", name: ""
+[NONE ][19:26:34] CONNECTED 127.0.0.1:28786, origin: "http://blobby.ga"
+[NONE ][19:26:44] DISCONNECTED 127.0.0.1:28786, code: 1001, reason: "", name: ""
+[NONE ][19:26:45] CONNECTED 127.0.0.1:28854, origin: "http://blobby.ga"
+[NONE ][19:26:56] DISCONNECTED 127.0.0.1:28854, code: 1006, reason: "", name: "doge2"
+[NONE ][19:26:57] CONNECTED 127.0.0.1:28926, origin: "http://blobby.ga"
+[NONE ][19:31:21] DISCONNECTED 127.0.0.1:28926, code: 1001, reason: "", name: ""
+[NONE ][19:31:22] CONNECTED 127.0.0.1:32220, origin: "http://blobby.ga"
+[NONE ][19:34:23] DISCONNECTED 127.0.0.1:32220, code: 1001, reason: "", name: ""
+[NONE ][19:34:24] CONNECTED 127.0.0.1:34012, origin: "http://blobby.ga"
+[NONE ][19:35:06] DISCONNECTED 127.0.0.1:34012, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:35:07] CONNECTED 127.0.0.1:34340, origin: "http://blobby.ga"
+[NONE ][19:42:27] DISCONNECTED 127.0.0.1:34340, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][19:42:29] CONNECTED 127.0.0.1:38098, origin: "http://blobby.ga"
+[NONE ][19:47:29] DISCONNECTED 127.0.0.1:38098, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][19:47:31] CONNECTED 127.0.0.1:40420, origin: "http://blobby.ga"
+[NONE ][19:54:18] DISCONNECTED 127.0.0.1:40420, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][19:54:19] CONNECTED 127.0.0.1:44068, origin: "http://blobby.ga"
+[NONE ][19:59:19] DISCONNECTED 127.0.0.1:44068, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][19:59:20] CONNECTED 127.0.0.1:46664, origin: "http://blobby.ga"
+[NONE ][20:04:20] DISCONNECTED 127.0.0.1:46664, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][20:04:21] CONNECTED 127.0.0.1:50258, origin: "http://blobby.ga"
+[NONE ][20:09:21] DISCONNECTED 127.0.0.1:50258, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][20:09:21] CONNECTED 127.0.0.1:53378, origin: "http://blobby.ga"
+[NONE ][20:14:22] DISCONNECTED 127.0.0.1:53378, code: 1000, reason: "Connection timeout", name: "herohamp"
+[NONE ][20:14:23] CONNECTED 127.0.0.1:56986, origin: "http://blobby.ga"
+[NONE ][20:17:23] DISCONNECTED 127.0.0.1:56986, code: 1001, reason: "", name: "herohamp"
+[NONE ][20:17:24] CONNECTED 127.0.0.1:58532, origin: "http://blobby.ga"

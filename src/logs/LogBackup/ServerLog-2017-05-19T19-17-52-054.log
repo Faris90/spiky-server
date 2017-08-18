@@ -1,0 +1,269 @@
+=== Started 2017-05-19T19-10-13-024 ===
+[INFO ][19:10:13] 419 bad words loaded
+[WARN ][19:10:13] User account "Local Administrator" disabled
+[WARN ][19:10:13] User account "Local Moderator" disabled
+[WARN ][19:10:13] User account "Local User" disabled
+[INFO ][19:10:13] 0 user records loaded.
+[INFO ][19:10:13] 0 IP ban records loaded.
+[INFO ][19:10:13] [1m[32mMultiOgar-Edited 1.6.1[37m - An open source multi-protocol ogar server[0m
+[INFO ][19:10:13] WebSocket: ws
+[INFO ][19:10:13] Listening on port 3003
+[INFO ][19:10:13] Current game mode is Free For All
+[NONE ][19:10:13]   __  __       _ _   _  ___                        _____    _ _ _           _    _   __    _ 
+ |  \/  |_   _| | |_(_)/ _ \  __ _  __ _ _ __     | ____|__| (_) |_ ___  __| |  / | / /_  / |
+ | |\/| | | | | | __| | | | |/ _` |/ _` | '__|____|  _| / _` | | __/ _ \/ _` |  | || '_ \ | |
+ | |  | | |_| | | |_| | |_| | (_| | (_| | | |_____| |__| (_| | | ||  __/ (_| |  | || (_) || |
+ |_|  |_|\__,_|_|\__|_|\___/ \__, |\__,_|_|       |_____\__,_|_|\__\___|\__,_|  |_(_)___(_)_|
+                             |___/                                                           
+[NONE ][19:10:15] CONNECTED 127.0.0.1:17524, origin: "http://blobby.ga"
+[NONE ][19:10:37] DISCONNECTED 127.0.0.1:17524, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:10:38] CONNECTED 127.0.0.1:17712, origin: "http://blobby.ga"
+[NONE ][19:11:29] DISCONNECTED 127.0.0.1:17712, code: 1001, reason: "", name: ""
+[NONE ][19:11:30] CONNECTED 127.0.0.1:18422, origin: "http://blobby.ga"
+[NONE ][19:11:58] DISCONNECTED 127.0.0.1:18422, code: 1001, reason: "", name: ""
+[NONE ][19:11:58] CONNECTED 127.0.0.1:18634, origin: "http://blobby.ga"
+[NONE ][19:12:30] >help
+[NONE ][19:12:30]                        ┌────────────────────────────┐                       
+                       │ LIST OF AVAILABLE COMMANDS │                       
+┌──────────────────────┴────────────────────────────┴──────────────────────┐
+│                         ----Players and AI----                           │
+│                                                                          │
+│ playerlist                   │ Get list of players, bots, ID's, etc      │
+│ minion [PlayerID] [#] [name] │ Adds suicide minions to the server        │
+│ addbot [number]              │ Adds bots to the server                   │
+│ kickbot [number]             │ Kick a number of bots - No value= all gone│
+│ kick [PlayerID]              │ Kick player or bot by client ID           │
+│ kickall                      │ Kick all players and bots                 │
+│ kill [PlayerID]              │ Kill the player by client ID              │
+│ killall                      │ Kills everyone                            │
+│                                                                          │
+│                          ----Player Commands----                         │
+│                                                                          │
+│ spawn [entity] [pos] [mass]  │ Spawns an entity                          │
+│ mass [PlayerID] [mass]       │ Set cell(s) mass by client ID             │
+│ merge [PlayerID]             │ Merge all client's cells                  │
+│ spawnmass [PlayerID] [mass]  │ Sets a player's spawn mass                │
+│ freeze [PlayerID]            │ Freezes a player                          │
+│ speed [PlayerID]             │ Sets a player's base speed                │
+│ color [PlayerID] [R] [G] [B] │ Set cell(s) color by client ID            │
+│ name [PlayerID] [name]       │ Change cell(s) name by client ID          │
+│ skin [PlayerID] [string]     │ Change cell(s) skin by client ID          │
+│ rec [PlayerID]               │ Gives a player instant-recombine + more   │
+│ split [PlayerID] [Amount]    │ Forces a player to split                  │
+│ tp [X] [Y]                   │ Teleports player(s) to XY coordinates     │
+│ replace [PlayerID] [entity]  │ Replaces a player with an entity          │
+│ pop [PlayerID]               │ Pops a player with a virus                │
+| explode [PlayerID]           | Explodes a player into ejected mass       |
+│                                                                          │
+│                          ----Server Commands----                         │
+│                                                                          │
+│ pause                        │ Pause game, freeze all nodes              │
+│ board [string] [string] ...  │ Set scoreboard text                       │
+│ change [setting] [value]     │ Change specified settings                 │
+│ reload                       │ Reload config, banlist, and role files    │
+│ ban [PlayerID │ IP]          │ Bans a player(s) IP                       │
+│ unban [IP]                   │ Unbans an IP                              │
+│ banlist                      │ Get list of banned IPs.                   │
+│ mute [PlayerID]              │ Mute player from chat by client ID        │
+│ unmute [PlayerID]            │ Unmute player from chat by client ID      │
+| lms                          | Starts/ends last man standing             |
+│                                                                          │
+│                          ----Miscellaneous----                           │
+│                                                                          │
+│ clear                        │ Clear console output                      │
+│ reset                        │ Removes all nodes and reimplement them    │
+│ status                       │ Get server status                         │
+│ debug                        │ Get/check node lengths                    │
+│ exit                         │ Stops the server                          │
+│ calc                         │ Get size/mass from a specified value      │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│         Psst! Do "shortcuts" for a list of command shortcuts!            │
+└──────────────────────────────────────────────────────────────────────────┘
+[NONE ][19:12:36] >playerlist
+[NONE ][19:12:36] 
+Current players: 1
+[NONE ][19:12:36] Do "playerlist m" or "pl m" to list minions
+
+[NONE ][19:12:36]  ID     | IP              | P | CELLS | SCORE  |   POSITION   | NICK            
+[NONE ][19:12:36] ────────────────────────────────────────────────────────────────────────────────
+[NONE ][19:12:36]       4 | 127.0.0.1       | 5 |     1 |     10 |  2819, -1083 | herohamp       
+[NONE ][19:12:58] >minion 5 100 Bill
+[NONE ][19:13:22] >pl m
+[NONE ][19:13:22] 
+Current players: 1
+[NONE ][19:13:22] Do "playerlist m" or "pl m" to list minions
+
+[NONE ][19:13:22]  ID     | IP              | P | CELLS | SCORE  |   POSITION   | NICK            
+[NONE ][19:13:22] ────────────────────────────────────────────────────────────────────────────────
+[NONE ][19:13:22]       4 | 127.0.0.1       | 5 |     1 |     25 |   285,  -715 | herohamp       
+[NONE ][19:13:40] >minion 4 100 bill
+[NONE ][19:13:40] Added 100 minions for herohamp
+[NONE ][19:14:47] >pl m
+[NONE ][19:14:47] 
+Current players: 101
+[NONE ][19:14:47] Do "playerlist m" or "pl m" to list minions
+
+[NONE ][19:14:47]  ID     | IP              | P | CELLS | SCORE  |   POSITION   | NICK            
+[NONE ][19:14:47] ────────────────────────────────────────────────────────────────────────────────
+[NONE ][19:14:47]       4 | 127.0.0.1       | 5 |    13 |   2739 |  -327,  -345 | herohamp       
+[NONE ][19:14:47]       5 | [MINION]        | ? |     1 |     13 | -4372, -3673 | bill           
+[NONE ][19:14:47]       6 | [MINION]        | ? |     1 |     10 |   178,   820 | bill           
+[NONE ][19:14:47]       7 | [MINION]        | ? |     1 |    791 | -4649, -4847 | bill           
+[NONE ][19:14:47]       8 | [MINION]        | ? |     1 |     10 | -4255, -4962 | bill           
+[NONE ][19:14:47]       9 | [MINION]        | ? |     1 |     15 | -2158,   336 | bill           
+[NONE ][19:14:47]      10 | [MINION]        | ? |     1 |     13 | -5565, -5602 | bill           
+[NONE ][19:14:47]      11 | [MINION]        | ? |     1 |     12 | -3385, -3274 | bill           
+[NONE ][19:14:47]      12 | [MINION]        | ? |     1 |     10 | -3063, -5116 | bill           
+[NONE ][19:14:47]      13 | [MINION]        | ? |     1 |     10 | -4241,  1696 | bill           
+[NONE ][19:14:47]      14 | [MINION]        | ? |     1 |     10 | -1235, -2647 | bill           
+[NONE ][19:14:47]      15 | [MINION]        | ? |     1 |     10 | -6363,   688 | bill           
+[NONE ][19:14:47]      16 | [MINION]        | ? |     1 |     10 |   882, -4259 | bill           
+[NONE ][19:14:47]      17 | [MINION]        | ? |     1 |     12 | -2831, -4365 | bill           
+[NONE ][19:14:47]      18 | [MINION]        | ? |     1 |     16 | -2691, -3775 | bill           
+[NONE ][19:14:47]      19 | [MINION]        | ? |     1 |     11 | -5662,  3740 | bill           
+[NONE ][19:14:47]      20 | [MINION]        | ? |     1 |     12 | -3409, -4023 | bill           
+[NONE ][19:14:47]      21 | [MINION]        | ? |     1 |     10 | -2749,   172 | bill           
+[NONE ][19:14:47]      22 | [MINION]        | ? |     1 |     10 |  2609,   571 | bill           
+[NONE ][19:14:47]      23 | [MINION]        | ? |     1 |     14 | -1580, -3228 | bill           
+[NONE ][19:14:47]      24 | [MINION]        | ? |     1 |     10 | -3265, -2870 | bill           
+[NONE ][19:14:47]      25 | [MINION]        | ? |     1 |     10 | -3206, -3913 | bill           
+[NONE ][19:14:47]      26 | [MINION]        | ? |     1 |     10 | -5420, -4937 | bill           
+[NONE ][19:14:47]      27 | [MINION]        | ? |     1 |     13 | -4120, -4911 | bill           
+[NONE ][19:14:47]      28 | [MINION]        | ? |     1 |     10 | -1790, -5231 | bill           
+[NONE ][19:14:47]      29 | [MINION]        | ? |     1 |     10 |   904, -2155 | bill           
+[NONE ][19:14:47]      30 | [MINION]        | ? |     1 |     13 |  -887, -3732 | bill           
+[NONE ][19:14:47]      31 | [MINION]        | ? |     1 |     12 | -2508, -1537 | bill           
+[NONE ][19:14:47]      32 | [MINION]        | ? |     1 |     10 |  -760, -3259 | bill           
+[NONE ][19:14:47]      33 | [MINION]        | ? |     1 |     13 |  3212,   931 | bill           
+[NONE ][19:14:47]      34 | [MINION]        | ? |     1 |     12 | -6348,  -302 | bill           
+[NONE ][19:14:47]      35 | [MINION]        | ? |     1 |     13 | -3414, -3753 | bill           
+[NONE ][19:14:47]      36 | [MINION]        | ? |     1 |     10 |  2984,  -334 | bill           
+[NONE ][19:14:47]      37 | [MINION]        | ? |     1 |     10 | -4690,  3079 | bill           
+[NONE ][19:14:47]      38 | [MINION]        | ? |     1 |     12 |   756,  3589 | bill           
+[NONE ][19:14:47]      39 | [MINION]        | ? |     1 |     16 |  -677,  3473 | bill           
+[NONE ][19:14:47]      40 | [MINION]        | ? |     1 |     17 |  -207,   857 | bill           
+[NONE ][19:14:47]      41 | [MINION]        | ? |     1 |     12 | -4827, -3957 | bill           
+[NONE ][19:14:47]      42 | [MINION]        | ? |     1 |     10 |  5735,  5671 | bill           
+[NONE ][19:14:47]      43 | [MINION]        | ? |     1 |     13 | -3842, -1933 | bill           
+[NONE ][19:14:47]      44 | [MINION]        | ? |     1 |     10 | -2790,   337 | bill           
+[NONE ][19:14:47]      45 | [MINION]        | ? |     1 |     10 |   121, -5130 | bill           
+[NONE ][19:14:47]      46 | [MINION]        | ? |     1 |     11 | -5526, -1596 | bill           
+[NONE ][19:14:47]      47 | [MINION]        | ? |     1 |     11 | -1723, -1249 | bill           
+[NONE ][19:14:47]      48 | [MINION]        | ? |     1 |     14 |   -10,   126 | bill           
+[NONE ][19:14:47]      49 | [MINION]        | ? |     1 |     10 |  3352, -4245 | bill           
+[NONE ][19:14:47]      50 | [MINION]        | ? |     1 |     10 | -1412, -1045 | bill           
+[NONE ][19:14:47]      51 | [MINION]        | ? |     1 |     14 |   -22,   168 | bill           
+[NONE ][19:14:47]      52 | [MINION]        | ? |     1 |     10 | -3190, -3530 | bill           
+[NONE ][19:14:47]      53 | [MINION]        | ? |     1 |     10 | -3519, -3470 | bill           
+[NONE ][19:14:47]      54 | [MINION]        | ? |     1 |     15 | -2864, -3834 | bill           
+[NONE ][19:14:47]      55 | [MINION]        | ? |     1 |     10 | -2341, -1504 | bill           
+[NONE ][19:14:47]      56 | [MINION]        | ? |     1 |     11 | -2608,  -428 | bill           
+[NONE ][19:14:47]      57 | [MINION]        | ? |     1 |     10 |  6142, -4133 | bill           
+[NONE ][19:14:47]      58 | [MINION]        | ? |     1 |     15 | -2013, -4362 | bill           
+[NONE ][19:14:47]      59 | [MINION]        | ? |     1 |     10 |  3139, -4852 | bill           
+[NONE ][19:14:47]      60 | [MINION]        | ? |     1 |     11 | -1132,  -675 | bill           
+[NONE ][19:14:47]      61 | [MINION]        | ? |     1 |     15 | -1772, -5110 | bill           
+[NONE ][19:14:47]      62 | [MINION]        | ? |     1 |     10 | -1905, -4797 | bill           
+[NONE ][19:14:47]      63 | [MINION]        | ? |     1 |     12 | -5695,  1383 | bill           
+[NONE ][19:14:47]      64 | [MINION]        | ? |     1 |     10 | -3168, -2737 | bill           
+[NONE ][19:14:47]      65 | [MINION]        | ? |     1 |     10 |  4837, -5828 | bill           
+[NONE ][19:14:47]      66 | [MINION]        | ? |     1 |     10 | -2985, -2208 | bill           
+[NONE ][19:14:47]      67 | [MINION]        | ? |     1 |     15 | -4504, -3197 | bill           
+[NONE ][19:14:47]      68 | [MINION]        | ? |     1 |     10 |  -510, -1093 | bill           
+[NONE ][19:14:47]      69 | [MINION]        | ? |     1 |     11 |  2534, -1970 | bill           
+[NONE ][19:14:47]      70 | [MINION]        | ? |     1 |     10 | -2722, -6016 | bill           
+[NONE ][19:14:47]      71 | [MINION]        | ? |     1 |     15 | -2723, -2987 | bill           
+[NONE ][19:14:47]      72 | [MINION]        | ? |     1 |     12 | -4600, -2302 | bill           
+[NONE ][19:14:47]      73 | [MINION]        | ? |     1 |     10 |  -843, -3520 | bill           
+[NONE ][19:14:47]      74 | [MINION]        | ? |     1 |     10 | -3055, -5365 | bill           
+[NONE ][19:14:47]      75 | [MINION]        | ? |     1 |     15 | -2488, -4968 | bill           
+[NONE ][19:14:47]      76 | [MINION]        | ? |     1 |     11 | -3139, -5383 | bill           
+[NONE ][19:14:47]      77 | [MINION]        | ? |     1 |     12 |  -588,   465 | bill           
+[NONE ][19:14:47]      78 | [MINION]        | ? |     1 |     13 | -2340, -3190 | bill           
+[NONE ][19:14:47]      79 | [MINION]        | ? |     1 |     10 | -3792, -1662 | bill           
+[NONE ][19:14:47]      80 | [MINION]        | ? |     1 |     16 | -5498,  -969 | bill           
+[NONE ][19:14:47]      81 | [MINION]        | ? |     1 |     10 |  -961, -3256 | bill           
+[NONE ][19:14:47]      82 | [MINION]        | ? |     1 |     10 |  3490, -4768 | bill           
+[NONE ][19:14:47]      83 | [MINION]        | ? |     1 |     15 | -3329, -4358 | bill           
+[NONE ][19:14:47]      84 | [MINION]        | ? |     1 |     12 |  6231,   633 | bill           
+[NONE ][19:14:47]      85 | [MINION]        | ? |     1 |     10 | -5373, -1443 | bill           
+[NONE ][19:14:47]      86 | [MINION]        | ? |     1 |     11 |  2634, -1858 | bill           
+[NONE ][19:14:47]      87 | [MINION]        | ? |     1 |     16 |  2629, -2671 | bill           
+[NONE ][19:14:47]      88 | [MINION]        | ? |     1 |     11 |  1640,   491 | bill           
+[NONE ][19:14:47]      89 | [MINION]        | ? |     1 |     10 | -3123, -4422 | bill           
+[NONE ][19:14:47]      90 | [MINION]        | ? |     1 |     10 | -1513, -2734 | bill           
+[NONE ][19:14:47]      91 | [MINION]        | ? |     1 |     10 | -6855,  1948 | bill           
+[NONE ][19:14:47]      92 | [MINION]        | ? |     1 |     10 | -3829, -3089 | bill           
+[NONE ][19:14:47]      93 | [MINION]        | ? |     1 |     14 | -1409,  -478 | bill           
+[NONE ][19:14:47]      94 | [MINION]        | ? |     1 |     10 |  6658,  3625 | bill           
+[NONE ][19:14:47]      95 | [MINION]        | ? |     1 |     11 | -6847,  4007 | bill           
+[NONE ][19:14:47]      96 | [MINION]        | ? |     1 |     10 |   107,  1617 | bill           
+[NONE ][19:14:47]      97 | [MINION]        | ? |     1 |     13 | -1621,   928 | bill           
+[NONE ][19:14:47]      98 | [MINION]        | ? |     1 |     18 | -1957, -1787 | bill           
+[NONE ][19:14:47]      99 | [MINION]        | ? |     1 |     12 | -5081,   820 | bill           
+[NONE ][19:14:47]     100 | [MINION]        | ? |     1 |     12 |  2039, -1648 | bill           
+[NONE ][19:14:47]     101 | [MINION]        | ? |     1 |     12 | -3264, -4652 | bill           
+[NONE ][19:14:47]     102 | [MINION]        | ? |     1 |     15 | -4268, -1521 | bill           
+[NONE ][19:14:47]     103 | [MINION]        | ? |     1 |     18 |  2911, -5201 | bill           
+[NONE ][19:14:47]     104 | [MINION]        | ? |     1 |     10 | -4263, -2871 | bill           
+[NONE ][19:14:51] >help
+[NONE ][19:14:51]                        ┌────────────────────────────┐                       
+                       │ LIST OF AVAILABLE COMMANDS │                       
+┌──────────────────────┴────────────────────────────┴──────────────────────┐
+│                         ----Players and AI----                           │
+│                                                                          │
+│ playerlist                   │ Get list of players, bots, ID's, etc      │
+│ minion [PlayerID] [#] [name] │ Adds suicide minions to the server        │
+│ addbot [number]              │ Adds bots to the server                   │
+│ kickbot [number]             │ Kick a number of bots - No value= all gone│
+│ kick [PlayerID]              │ Kick player or bot by client ID           │
+│ kickall                      │ Kick all players and bots                 │
+│ kill [PlayerID]              │ Kill the player by client ID              │
+│ killall                      │ Kills everyone                            │
+│                                                                          │
+│                          ----Player Commands----                         │
+│                                                                          │
+│ spawn [entity] [pos] [mass]  │ Spawns an entity                          │
+│ mass [PlayerID] [mass]       │ Set cell(s) mass by client ID             │
+│ merge [PlayerID]             │ Merge all client's cells                  │
+│ spawnmass [PlayerID] [mass]  │ Sets a player's spawn mass                │
+│ freeze [PlayerID]            │ Freezes a player                          │
+│ speed [PlayerID]             │ Sets a player's base speed                │
+│ color [PlayerID] [R] [G] [B] │ Set cell(s) color by client ID            │
+│ name [PlayerID] [name]       │ Change cell(s) name by client ID          │
+│ skin [PlayerID] [string]     │ Change cell(s) skin by client ID          │
+│ rec [PlayerID]               │ Gives a player instant-recombine + more   │
+│ split [PlayerID] [Amount]    │ Forces a player to split                  │
+│ tp [X] [Y]                   │ Teleports player(s) to XY coordinates     │
+│ replace [PlayerID] [entity]  │ Replaces a player with an entity          │
+│ pop [PlayerID]               │ Pops a player with a virus                │
+| explode [PlayerID]           | Explodes a player into ejected mass       |
+│                                                                          │
+│                          ----Server Commands----                         │
+│                                                                          │
+│ pause                        │ Pause game, freeze all nodes              │
+│ board [string] [string] ...  │ Set scoreboard text                       │
+│ change [setting] [value]     │ Change specified settings                 │
+│ reload                       │ Reload config, banlist, and role files    │
+│ ban [PlayerID │ IP]          │ Bans a player(s) IP                       │
+│ unban [IP]                   │ Unbans an IP                              │
+│ banlist                      │ Get list of banned IPs.                   │
+│ mute [PlayerID]              │ Mute player from chat by client ID        │
+│ unmute [PlayerID]            │ Unmute player from chat by client ID      │
+| lms                          | Starts/ends last man standing             |
+│                                                                          │
+│                          ----Miscellaneous----                           │
+│                                                                          │
+│ clear                        │ Clear console output                      │
+│ reset                        │ Removes all nodes and reimplement them    │
+│ status                       │ Get server status                         │
+│ debug                        │ Get/check node lengths                    │
+│ exit                         │ Stops the server                          │
+│ calc                         │ Get size/mass from a specified value      │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────┤
+│         Psst! Do "shortcuts" for a list of command shortcuts!            │
+└──────────────────────────────────────────────────────────────────────────┘
+[NONE ][19:15:27] DISCONNECTED 127.0.0.1:18634, code: 1001, reason: "", name: "herohamp"
+[NONE ][19:15:27] CONNECTED 127.0.0.1:21288, origin: "http://blobby.ga"
