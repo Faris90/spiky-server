@@ -1,9 +1,9 @@
 [
     { 
         "ip":"127.0.0.1", 
-        "password":"",
+        "password":"PasswordBlobby",
         "role":"ADMIN",
-        "name":"Local Administrator" 
+        "name":"herohamp" 
     },
     { 
         "ip":"127.0.0.1", 
