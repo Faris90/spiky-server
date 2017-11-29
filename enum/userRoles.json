@@ -1,20 +1,16 @@
-[
-    { 
-        "ip":"127.0.0.1", 
-        "password":"PasswordBlobby",
-        "role":"ADMIN",
-        "name":"herohamp" 
-    },
-    { 
-        "ip":"127.0.0.1", 
-        "password":"",
-        "role":"MODER",
-        "name":"Local Moderator" 
-    },
-    { 
-        "ip":"127.0.0.1", 
-        "password":"",
-        "role":"USER",
-        "name":"Local User" 
-    }
-]
+[{
+	"ip": "*",
+	"password": "Blobbyiscool",
+	"role": "ADMIN",
+	"name": "herohamp"
+}, {
+	"ip": "127.0.0.1",
+	"password": "",
+	"role": "MODER",
+	"name": "Local Moderator"
+}, {
+	"ip": "127.0.0.1",
+	"password": "",
+	"role": "USER",
+	"name": "Local User"
+}]
