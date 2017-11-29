@@ -9,42 +9,42 @@ function BotLoader(gameServer) {
 
 module.exports = BotLoader;
 
-BotLoader.prototype.getName = function () {
-    var name = "";
-    
+BotLoader.prototype.getName = function() {
+    var name = "GavinDT";
+    /*
     // Picks a random name for the bot
     if (this.randomNames.length > 0) {
         var index = (this.randomNames.length * Math.random()) >>> 0;
         name = this.randomNames[index];
     } else {
         name = "bot" + ++this.nameIndex;
-    }
-    
+    }*/
+
     return name;
 };
 
-BotLoader.prototype.loadNames = function () {
+BotLoader.prototype.loadNames = function() {
     this.randomNames = [];
     var fs = require("fs");
-    
+
     if (fs.existsSync("../src/ai/BotNames.txt")) {
         // Read and parse the names - filter out whitespace-only names
-        this.randomNames = fs.readFileSync("../src/ai/BotNames.txt", "utf8").split(/[\r\n]+/).filter(function (x) {
+        this.randomNames = fs.readFileSync("../src/ai/BotNames.txt", "utf8").split(/[\r\n]+/).filter(function(x) {
             return x != ''; // filter empty names
         });
     }
     this.nameIndex = 0;
 };
 
-BotLoader.prototype.addBot = function () {
+BotLoader.prototype.addBot = function() {
     var BotPlayer = require('./BotPlayer');
     var s = new FakeSocket(this.gameServer);
     s.playerTracker = new BotPlayer(this.gameServer, s);
     s.packetHandler = new PacketHandler(this.gameServer, s);
-    
+
     // Add to client list
     this.gameServer.clients.push(s);
-    
+
     // Add to world
     s.packetHandler.setNickname(this.getName());
 };
@@ -61,7 +61,7 @@ BotLoader.prototype.addMinion = function(owner, name) {
     if (this.gameServer.config.minionMaxStartSize > size)
         size = Math.random() * (this.gameServer.config.minionMaxStartSize - size) + size;
     s.playerTracker.spawnmass = size;
-    
+
     // Add to client list
     this.gameServer.clients.push(s);
 
